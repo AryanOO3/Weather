@@ -35,7 +35,7 @@ git init
 git add .
 git commit -m "init"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/weather-dashboard.git
+git remote add origin https://github.com/YOUR_USERNAME/weather.git
 git push -u origin main
 ```
 Then in GitHub repo → Settings → Pages → Source: `main` / `root`
