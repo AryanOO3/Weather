@@ -299,8 +299,10 @@ header h1 { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.5px; white-s
 @media (max-width: 700px) {
   header { flex-direction: column; align-items: stretch; }
   header h1 { font-size: 1.2rem; }
-  .search-bar { justify-content: stretch; }
-  .search-bar input { max-width: none; }
+  .search-bar { justify-content: stretch; width: 100%; }
+  .search-bar input { max-width: none; flex: 1; min-width: 0; }
+  #searchBtn { flex-shrink: 0; padding: 10px 14px; }
+  #locBtn    { flex-shrink: 0; }
 
   .current-card { grid-template-columns: 1fr; gap: 16px; padding: 18px; }
   .city-name { font-size: 1.4rem; }
